@@ -5,7 +5,7 @@ int fib() {
   for (int i = 3; i <= n; i++) {
     if (num == soma) {
       printf("O numero pertence a sequencia de Fibonacci");
-      break;
+      return 0;
 
     } else {
 
